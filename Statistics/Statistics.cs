@@ -15,21 +15,7 @@ namespace Statistics
   
     public class StatsComputer
     {
-        double FindAvg(List<double> numbers){
-            double avg = numbers.Average();
-            return avg;
-        }
-        
-        double FindMax(List<double> numbers){
-            double maximum = numbers.Max();
-            return maximum;
-        }
-        
-        double FindMin(List<double> numbers){
-            double minimum = numbers.Min();
-            return minimum;
-        }
-        
+               
         public Stats CalculateStatistics(List<double> numbers) {
             Stats myStats = new Stats();
            if(numbers.Count == 0){
@@ -40,9 +26,9 @@ namespace Statistics
             }
             
             else {
-                myStats.average = FindAvg(numbers);
-                myStats.min = FindMin(numbers);
-                myStats.max = FindMax(numbers);
+                myStats.average = number.Average();
+                myStats.min = numbers.Min();
+                myStats.max = numbers.Max();
                 
                 return myStats;
             }
