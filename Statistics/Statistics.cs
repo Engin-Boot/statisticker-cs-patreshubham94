@@ -29,11 +29,11 @@ namespace Statistics
         }
         
         public Stats CalculateStatistics(List<double> numbers) {
-            Stats myStat = new Stats();
+            Stats myStats = new Stats();
            if(numbers.Count == 0){
-                myStat.average = double.NaN;
-               myStat.max = double.NaN;
-               myStat.min = double.NaN;
+                myStats.average = double.NaN;
+               myStats.max = double.NaN;
+               myStats.min = double.NaN;
                return myStats;
             }
             
