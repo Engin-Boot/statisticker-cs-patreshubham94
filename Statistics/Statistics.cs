@@ -24,8 +24,7 @@ namespace Statistics
                myStats1.min = double.NaN;
                return myStats1;
             }
-            
-           
+                     
               Stats myStats2 = new Stats();  
             
                double avg = numbers.Average();
@@ -38,6 +37,5 @@ namespace Statistics
                 
                 return myStats2;
         }
-        
-    }
+     }
 }
