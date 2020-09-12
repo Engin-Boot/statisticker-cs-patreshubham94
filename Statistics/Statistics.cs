@@ -17,6 +17,7 @@ namespace Statistics
         public StatsComputer CalculateStatistics(List<double> numbers) {
             StatsComputer myStats = new StatsComputer();
            if(numbers.Count == 0){
+            
                 myStats.average = double.NaN;
                myStats.max = double.NaN;
                myStats.min = double.NaN;
@@ -24,9 +25,13 @@ namespace Statistics
             }
             
             else {
-                myStats.average = numbers.Average();
-                myStats.min = numbers.Min();
-                myStats.max = numbers.Max();
+                                
+               double avg = numbers.Average();
+               double miximum = numbers.Max();
+               double minimum= numbers.Min();
+                myStats.average = avg;
+                myStats.min = minimum;
+                myStats.max = maximum;
                 
                 return myStats;
             }
