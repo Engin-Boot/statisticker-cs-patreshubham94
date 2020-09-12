@@ -21,12 +21,12 @@ namespace Statistics
         }
         
         double FindMax(List<double> numbers){
-            double maximum = numbers.max();
+            double maximum = numbers.Max();
             return maximum;
         }
         
         double FindMin(List<double> numbers){
-            double minimum = numbers.min();
+            double minimum = numbers.Min();
             return minimum;
         }
         
