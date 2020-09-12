@@ -14,17 +14,17 @@ namespace Statistics
     public class StatsComputer
     {
         double FindAvg(List<double> numbers){
-            double avg = number.Average();
+            double avg = numbers.Average();
             return avg;
         }
         
         double FindMax(List<double> numbers){
-            double maximum = number.max();
+            double maximum = numbers.max();
             return maximum;
         }
         
         double FindMin(List<double> numbers){
-            double minimum = number.min();
+            double minimum = numbers.min();
             return minimum;
         }
         
