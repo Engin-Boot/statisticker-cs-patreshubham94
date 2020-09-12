@@ -26,7 +26,7 @@ namespace Statistics
             }
             
             else {
-                myStats.average = number.Average();
+                myStats.average = numbers.Average();
                 myStats.min = numbers.Min();
                 myStats.max = numbers.Max();
                 
