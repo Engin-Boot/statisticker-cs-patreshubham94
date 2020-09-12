@@ -27,7 +27,7 @@ namespace Statistics
             else {
                                 
                double avg = numbers.Average();
-               double miximum = numbers.Max();
+               double maximum = numbers.Max();
                double minimum= numbers.Min();
                 myStats.average = avg;
                 myStats.min = minimum;
