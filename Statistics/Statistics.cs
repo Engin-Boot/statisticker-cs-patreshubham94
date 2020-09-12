@@ -6,18 +6,16 @@ using System.Linq;
 namespace Statistics
 {
     
-    public class Stats
+  
+  
+    public class StatsComputer
     {
         public double average;
         public double max;
         public double min;
-    }
-  
-    public class StatsComputer
-    {
                
         public Stats CalculateStatistics(List<double> numbers) {
-            Stats myStats = new Stats();
+            StatsComputer myStats = new StatsComputer();
            if(numbers.Count == 0){
                 myStats.average = double.NaN;
                myStats.max = double.NaN;
