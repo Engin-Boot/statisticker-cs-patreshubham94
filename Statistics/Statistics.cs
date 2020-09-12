@@ -37,7 +37,7 @@ namespace Statistics
                 myStats2.max = maximum;
                 
                 return myStats2;
-           
+        }
         
     }
 }
