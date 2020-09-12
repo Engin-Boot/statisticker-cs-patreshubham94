@@ -10,8 +10,9 @@ namespace Statistics
         public double max;
         public double min;
     }
-    
-    public class StatsCalculator{
+  
+    public class StatsComputer
+    {
         double FindAvg(List<double> numbers){
             double avg = number.Average();
             return avg;
@@ -26,9 +27,7 @@ namespace Statistics
             double minimum = number.min();
             return minimum;
         }
-    }
-    public class StatsComputer
-    {
+        
         public Stats CalculateStatistics(List<double> numbers) {
             Stats myStat = new Stats();
            if(numbers.Count == 0){
