@@ -1,5 +1,4 @@
 using System;
-using Xunit;
 using Statistics;
 using System.Collections.Generic;
 using System.Linq;
