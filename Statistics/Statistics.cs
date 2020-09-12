@@ -5,36 +5,39 @@ using System.Linq;
 
 namespace Statistics
 {
-    
-  
-  
-    public class StatsComputer
+    public class Stats
     {
         public double average;
         public double max;
         public double min;
-               
-        public StatsComputer CalculateStatistics(List<double> numbers) {
-            StatsComputer myStats = new StatsComputer();
-           if(numbers.Count == 0){
+    }
+    
+    public class StatsComputer{ 
+        public Stats CalculateStatistics(List<double> numbers) {
             
-                myStats.average = double.NaN;
-               myStats.max = double.NaN;
-               myStats.min = double.NaN;
-               return myStats;
+         
+            if(numbers.Count == 0){
+            Stats myStats1 = new Stats();
+                
+               myStats1.average = double.NaN;
+               myStats1.max = double.NaN;
+               myStat1s.min = double.NaN;
+               return myStats1;
             }
             
-            else {
-                                
+           
+              Stats myStats2 = new Stats();  
+            
                double avg = numbers.Average();
                double maximum = numbers.Max();
                double minimum= numbers.Min();
-                myStats.average = avg;
-                myStats.min = minimum;
-                myStats.max = maximum;
+            
+                myStats2.average = avg;
+                myStats2.min = minimum;
+                myStats2.max = maximum;
                 
-                return myStats;
-            }
-        }
+                return myStats2;
+           
+        
     }
 }
