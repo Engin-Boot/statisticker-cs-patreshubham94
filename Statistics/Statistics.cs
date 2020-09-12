@@ -21,7 +21,7 @@ namespace Statistics
                 
                myStats1.average = double.NaN;
                myStats1.max = double.NaN;
-               myStat1s.min = double.NaN;
+               myStats1.min = double.NaN;
                return myStats1;
             }
             
