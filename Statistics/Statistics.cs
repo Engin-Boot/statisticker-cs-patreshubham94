@@ -14,7 +14,7 @@ namespace Statistics
         public double max;
         public double min;
                
-        public Stats CalculateStatistics(List<double> numbers) {
+        public StatsComputer CalculateStatistics(List<double> numbers) {
             StatsComputer myStats = new StatsComputer();
            if(numbers.Count == 0){
                 myStats.average = double.NaN;
